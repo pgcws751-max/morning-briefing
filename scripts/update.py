@@ -2,7 +2,7 @@
 
 data/ 아래 JSON 파일 4개를 새로 만듭니다.
 - weather.json   : Open-Meteo (안산시 상록구 건건동)
-- markets.json   : 코스피·코스닥은 네이버 증권, 미국 지수·엔비디아는 Yahoo Finance
+- markets.json   : 네이버 증권 (안 되면 Stooq, Yahoo Finance로 대체)
 - history.json   : 최근 6거래일 종가 (차트용)
 - headlines.json : 외신 RSS. ANTHROPIC_API_KEY가 있으면 Claude가 골라서 우리말로 옮기고
                    분야별로 나눕니다. 없으면 영어 제목 그대로 언론사별로 보여 줍니다.
@@ -94,64 +94,79 @@ def num(v) -> float:
 
 def naver_index(code: str) -> list[tuple[str, float]]:
     """네이버 증권 국내 지수 일별 종가. [(YYYY-MM-DD, 종가), ...] 오래된 순."""
-    d = get_json(f"https://m.stock.naver.com/api/index/{code}/price?pageSize=10&page=1")
+    return _naver(f"https://m.stock.naver.com/api/index/{code}/price?pageSize=10&page=1")
+
+
+def naver_world(kind: str, code: str) -> list[tuple[str, float]]:
+    """네이버 증권 해외 지수(kind=index)·종목(kind=stock) 일별 종가."""
+    return _naver(f"https://api.stock.naver.com/{kind}/{code}/price?pageSize=10&page=1")
+
+
+def _naver(url: str) -> list[tuple[str, float]]:
+    d = get_json(url)
+    if isinstance(d, dict):
+        d = d.get("result") or d.get("priceInfos") or d.get("items") or []
+    return sorted((str(x["localTradedAt"])[:10], num(x["closePrice"])) for x in d)
+
+
+def stooq(symbol: str) -> list[tuple[str, float]]:
+    """Stooq 일별 종가 CSV (Date,Open,High,Low,Close,Volume)."""
+    start = (NOW - timedelta(days=30)).strftime("%Y%m%d")
+    text = get(f"https://stooq.com/q/d/l/?s={urllib.request.quote(symbol)}&d1={start}&i=d").decode()
     pts = []
-    for x in d:
-        day = str(x["localTradedAt"])[:10]
-        pts.append((day, num(x["closePrice"])))
+    for line in text.strip().splitlines()[1:]:
+        f = line.split(",")
+        if len(f) >= 5 and f[4] not in ("", "null"):
+            pts.append((f[0], round(float(f[4]), 2)))
     return sorted(pts)
 
 
 def yahoo(symbol: str) -> list[tuple[str, float]]:
-    """Yahoo Finance 일별 종가. [(YYYY-MM-DD, 종가), ...] 오래된 순 (거래소 현지 날짜)."""
+    """Yahoo Finance 일별 종가 (마지막 대체 수단)."""
     sym = urllib.request.quote(symbol)
-    d = get_json(f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=1mo&interval=1d")
+    d = get_json(f"https://query2.finance.yahoo.com/v8/finance/chart/{sym}?range=1mo&interval=1d")
     res = d["chart"]["result"][0]
     off = res["meta"].get("gmtoffset", 0)
     closes = res["indicators"]["quote"][0]["close"]
-    pts = []
-    for ts, cl in zip(res["timestamp"], closes):
-        if cl is None:
-            continue
-        day = datetime.fromtimestamp(ts + off, timezone.utc).strftime("%Y-%m-%d")
-        pts.append((day, round(cl, 2)))
-    # 장중이면 마지막 값은 아직 종가가 아니므로 뺍니다.
-    if res["meta"].get("currentTradingPeriod", {}).get("regular"):
-        reg = res["meta"]["currentTradingPeriod"]["regular"]
-        now = datetime.now(timezone.utc).timestamp()
-        if reg["start"] <= now < reg["end"] and pts:
-            pts = pts[:-1]
+    pts = [(datetime.fromtimestamp(ts + off, timezone.utc).strftime("%Y-%m-%d"), round(cl, 2))
+           for ts, cl in zip(res["timestamp"], closes) if cl is not None]
     return pts
 
 
+def first_ok(name: str, *tries):
+    errors = []
+    for label, fn in tries:
+        try:
+            pts = fn()
+            if len(pts) >= 2:
+                return pts, label
+            errors.append(f"{label}: 데이터 {len(pts)}개")
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"{label}: {e}")
+    raise RuntimeError(f"{name} 전부 실패 ({'; '.join(errors)})")
+
+
 MARKETS = [
-    # (구분, 이름, 단위, 가져오기, 차트에 넣을지)
-    ("미국", "S&P 500", "pt", lambda: yahoo("^GSPC"), True),
-    ("미국", "다우존스", "pt", lambda: yahoo("^DJI"), False),
-    ("미국", "나스닥", "pt", lambda: yahoo("^IXIC"), False),
-    ("한국", "코스피", "pt", lambda: naver_or_yahoo("KOSPI", "^KS11"), True),
-    ("한국", "코스닥", "pt", lambda: naver_or_yahoo("KOSDAQ", "^KQ11"), True),
-    ("종목", "엔비디아", "USD", lambda: yahoo("NVDA"), True),
+    # (구분, 이름, 단위, 시도 순서, 차트에 넣을지)
+    ("미국", "S&P 500", "pt", [("네이버", lambda: naver_world("index", ".INX")), ("Stooq", lambda: stooq("^spx")), ("Yahoo", lambda: yahoo("^GSPC"))], True),
+    ("미국", "다우존스", "pt", [("네이버", lambda: naver_world("index", ".DJI")), ("Stooq", lambda: stooq("^dji")), ("Yahoo", lambda: yahoo("^DJI"))], False),
+    ("미국", "나스닥", "pt", [("네이버", lambda: naver_world("index", ".IXIC")), ("Stooq", lambda: stooq("^ndq")), ("Yahoo", lambda: yahoo("^IXIC"))], False),
+    ("한국", "코스피", "pt", [("네이버", lambda: naver_index("KOSPI")), ("Yahoo", lambda: yahoo("^KS11"))], True),
+    ("한국", "코스닥", "pt", [("네이버", lambda: naver_index("KOSDAQ")), ("Yahoo", lambda: yahoo("^KQ11"))], True),
+    ("종목", "엔비디아", "USD", [("네이버", lambda: naver_world("stock", "NVDA.O")), ("Stooq", lambda: stooq("nvda.us")), ("Yahoo", lambda: yahoo("NVDA"))], True),
 ]
-
-
-def naver_or_yahoo(code: str, ysym: str) -> list[tuple[str, float]]:
-    try:
-        return naver_index(code)
-    except Exception as e:  # noqa: BLE001
-        print(f"[warn] 네이버 {code} 실패, Yahoo로 대체: {e}")
-        return yahoo(ysym)
 
 
 def markets() -> None:
     rows, hist = [], []
-    for market, name, unit, fetch, chart in MARKETS:
+    used = set()
+    for market, name, unit, tries, chart in MARKETS:
         try:
-            pts = fetch()
-            if len(pts) < 2:
-                raise ValueError("데이터가 부족합니다")
+            pts, label = first_ok(name, *tries)
+            used.add(label)
+            print(f"[info] {name}: {label} ({pts[-1][0]} 종가 {pts[-1][1]})")
         except Exception as e:  # noqa: BLE001
-            print(f"[warn] {name} 실패: {e}")
+            print(f"[warn] {e}")
             continue
         (d0, prev), (d1, close) = pts[-2], pts[-1]
         rows.append({
@@ -162,10 +177,11 @@ def markets() -> None:
             hist += [{"name": name, "date": d, "close": round(c, 2)} for d, c in pts[-HISTORY_DAYS:]]
     if len(rows) < len(MARKETS) // 2:
         raise RuntimeError(f"증시 데이터를 {len(rows)}개밖에 못 받았습니다")
-    write("markets", rows, "코스피·코스닥: 네이버 증권 / 미국 지수·엔비디아: Yahoo Finance (장 마감 기준)")
+    src = "네이버 증권" if used == {"네이버"} else ", ".join(sorted(used))
+    write("markets", rows, f"{src} (장 마감 기준)")
     order = ["코스피", "코스닥", "S&P 500", "엔비디아"]
     hist.sort(key=lambda r: (order.index(r["name"]), r["date"]))
-    write("history", hist, "코스피·코스닥: 네이버 증권 / S&P 500·엔비디아: Yahoo Finance 일별 종가")
+    write("history", hist, f"{src} 일별 종가")
 
 
 # ---------------------------------------------------------------- 헤드라인
