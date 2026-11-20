@@ -5,9 +5,6 @@ on:
     # 매일 한국 시간 06:47 (UTC 21:47). GitHub 예약 실행은 보통 몇 분~십여 분 늦게 시작해서 7시 전후에 끝납니다.
     - cron: "47 21 * * *"
   workflow_dispatch: {}
-  push:
-    branches: ["ccr-**"]
-    paths: ["scripts/**", ".github/workflows/update.yml"]
 
 permissions:
   contents: write

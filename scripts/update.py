@@ -2,7 +2,7 @@
 
 data/ 아래 JSON 파일 4개를 새로 만듭니다.
 - weather.json   : Open-Meteo (안산시 상록구 건건동)
-- markets.json   : 네이버 증권 (안 되면 Stooq, Yahoo Finance로 대체)
+- markets.json   : 네이버 증권 (안 되면 CNBC, Yahoo Finance로 대체)
 - history.json   : 최근 6거래일 종가 (차트용)
 - headlines.json : 외신 RSS. ANTHROPIC_API_KEY가 있으면 Claude가 골라서 우리말로 옮기고
                    분야별로 나눕니다. 없으면 영어 제목 그대로 언론사별로 보여 줍니다.
@@ -110,18 +110,6 @@ def _naver(url: str) -> list[tuple[str, float]]:
     return sorted((str(x["localTradedAt"])[:10], num(x["closePrice"])) for x in d)
 
 
-def stooq(symbol: str) -> list[tuple[str, float]]:
-    """Stooq 일별 종가 CSV (Date,Open,High,Low,Close,Volume)."""
-    start = (NOW - timedelta(days=30)).strftime("%Y%m%d")
-    text = get(f"https://stooq.com/q/d/l/?s={urllib.request.quote(symbol)}&d1={start}&i=d").decode()
-    pts = []
-    for line in text.strip().splitlines()[1:]:
-        f = line.split(",")
-        if len(f) >= 5 and f[4] not in ("", "null"):
-            pts.append((f[0], round(float(f[4]), 2)))
-    return sorted(pts)
-
-
 def yahoo(symbol: str) -> list[tuple[str, float]]:
     """Yahoo Finance 일별 종가 (마지막 대체 수단)."""
     sym = urllib.request.quote(symbol)
@@ -195,12 +183,12 @@ def first_ok(name: str, *tries):
 
 MARKETS = [
     # (구분, 이름, 단위, 시도 순서, 차트에 넣을지)
-    ("미국", "S&P 500", "pt", [("네이버", lambda: naver_world("index", ".INX")), ("CNBC", lambda: cnbc(".SPX")), ("Stooq", lambda: stooq("^spx")), ("Yahoo", lambda: yahoo("^GSPC"))], True),
-    ("미국", "다우존스", "pt", [("네이버", lambda: naver_world("index", ".DJI")), ("CNBC", lambda: cnbc(".DJI")), ("Stooq", lambda: stooq("^dji")), ("Yahoo", lambda: yahoo("^DJI"))], False),
-    ("미국", "나스닥", "pt", [("네이버", lambda: naver_world("index", ".IXIC")), ("CNBC", lambda: cnbc(".IXIC")), ("Stooq", lambda: stooq("^ndq")), ("Yahoo", lambda: yahoo("^IXIC"))], False),
+    ("미국", "S&P 500", "pt", [("네이버", lambda: naver_world("index", ".INX")), ("CNBC", lambda: cnbc(".SPX")), ("Yahoo", lambda: yahoo("^GSPC"))], True),
+    ("미국", "다우존스", "pt", [("네이버", lambda: naver_world("index", ".DJI")), ("CNBC", lambda: cnbc(".DJI")), ("Yahoo", lambda: yahoo("^DJI"))], False),
+    ("미국", "나스닥", "pt", [("네이버", lambda: naver_world("index", ".IXIC")), ("CNBC", lambda: cnbc(".IXIC")), ("Yahoo", lambda: yahoo("^IXIC"))], False),
     ("한국", "코스피", "pt", [("네이버", lambda: naver_index("KOSPI")), ("Yahoo", lambda: yahoo("^KS11"))], True),
     ("한국", "코스닥", "pt", [("네이버", lambda: naver_index("KOSDAQ")), ("Yahoo", lambda: yahoo("^KQ11"))], True),
-    ("종목", "엔비디아", "USD", [("네이버", lambda: naver_world("stock", "NVDA.O")), ("CNBC", lambda: cnbc("NVDA")), ("Stooq", lambda: stooq("nvda.us")), ("Yahoo", lambda: yahoo("NVDA"))], True),
+    ("종목", "엔비디아", "USD", [("네이버", lambda: naver_world("stock", "NVDA.O")), ("CNBC", lambda: cnbc("NVDA")), ("Yahoo", lambda: yahoo("NVDA"))], True),
 ]
 
 

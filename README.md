@@ -8,5 +8,5 @@
 GitHub Actions(`.github/workflows/update.yml`)가 매일 한국 시간 오전 7시쯤 `scripts/update.py`를 실행해 데이터를 새로 받고 커밋합니다.
 Actions 탭에서 **Run workflow** 버튼을 누르면 바로 한 번 실행할 수도 있습니다.
 
-- 날씨: Open-Meteo / 증시: 네이버 증권, Yahoo Finance / 뉴스: 각 언론사 RSS
+- 날씨: Open-Meteo / 증시: 네이버 증권 / 뉴스: 각 언론사 RSS
 - 저장소 **Settings → Secrets and variables → Actions**에 `ANTHROPIC_API_KEY`를 넣으면 Claude가 헤드라인을 골라 우리말로 옮기고 분야별로 나눕니다. 없으면 영어 제목을 언론사별로 보여 줍니다.
