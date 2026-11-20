@@ -134,16 +134,23 @@ def yahoo(symbol: str) -> list[tuple[str, float]]:
 
 
 def first_ok(name: str, *tries):
-    errors = []
+    """모든 출처를 확인해 가장 최근 종가가 있는 것을 고릅니다 (날짜가 같으면 앞 순서 우선).
+    네이버가 가끔 하루 늦게 갱신되는 지수가 있어서입니다."""
+    errors, best = [], None
     for label, fn in tries:
         try:
             pts = fn()
-            if len(pts) >= 2:
-                return pts, label
-            errors.append(f"{label}: 데이터 {len(pts)}개")
+            if len(pts) < 2:
+                errors.append(f"{label}: 데이터 {len(pts)}개")
+            elif best is None or pts[-1][0] > best[0][-1][0]:
+                best = (pts, label)
         except Exception as e:  # noqa: BLE001
             errors.append(f"{label}: {e}")
-    raise RuntimeError(f"{name} 전부 실패 ({'; '.join(errors)})")
+    if errors:
+        print(f"[info] {name} 일부 출처 실패: {'; '.join(errors)}")
+    if best is None:
+        raise RuntimeError(f"{name} 전부 실패")
+    return best
 
 
 MARKETS = [
