@@ -17,6 +17,7 @@ import json
 import os
 import re
 import sys
+import threading
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -33,7 +34,7 @@ LAT, LON = 37.306, 126.907
 HISTORY_DAYS = 6
 
 
-def get(url: str, timeout: int = 30) -> bytes:
+def get(url: str, timeout: int = 15) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
@@ -133,34 +134,73 @@ def yahoo(symbol: str) -> list[tuple[str, float]]:
     return pts
 
 
+def cnbc(symbol: str) -> list[tuple[str, float]]:
+    """CNBC 시세 (최근 종가와 전일 종가만). 전일 날짜는 몰라서 "0"으로 둡니다."""
+    d = get_json("https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol"
+                 f"?symbols={urllib.request.quote(symbol)}&requestMethod=itv&noform=1&output=json")
+    q = d["FormattedQuoteResult"]["FormattedQuote"][0]
+    return [("0", num(q["previous_day_closing"])), (str(q["last_time"])[:10], num(q["last"]))]
+
+
+def with_deadline(fn, seconds: int = 20):
+    """응답이 아주 느리게 오는 서버 때문에 멈추지 않도록 전체 시간을 제한합니다."""
+    box = {}
+
+    def run():
+        try:
+            box["v"] = fn()
+        except Exception as e:  # noqa: BLE001
+            box["e"] = e
+
+    t = threading.Thread(target=run, daemon=True)
+    t.start()
+    t.join(seconds)
+    if t.is_alive():
+        raise TimeoutError(f"{seconds}초 안에 응답 없음")
+    if "e" in box:
+        raise box["e"]
+    return box["v"]
+
+
 def first_ok(name: str, *tries):
-    """모든 출처를 확인해 가장 최근 종가가 있는 것을 고릅니다 (날짜가 같으면 앞 순서 우선).
+    """모든 출처를 확인해 가장 최근 종가를 고르고, 차트용 과거 종가는 다른 출처로 채웁니다.
     네이버가 가끔 하루 늦게 갱신되는 지수가 있어서입니다."""
-    errors, best = [], None
+    errors, results = [], []
     for label, fn in tries:
         try:
-            pts = fn()
+            pts = with_deadline(fn)
             if len(pts) < 2:
                 errors.append(f"{label}: 데이터 {len(pts)}개")
-            elif best is None or pts[-1][0] > best[0][-1][0]:
-                best = (pts, label)
+            else:
+                results.append((pts, label))
         except Exception as e:  # noqa: BLE001
             errors.append(f"{label}: {e}")
     if errors:
         print(f"[info] {name} 일부 출처 실패: {'; '.join(errors)}")
-    if best is None:
+    if not results:
         raise RuntimeError(f"{name} 전부 실패")
-    return best
+    best, label = results[0]
+    for pts, lb in results[1:]:
+        if pts[-1][0] > best[-1][0]:
+            best, label = pts, lb
+    merged = {}
+    for pts, _ in reversed(results):  # 앞 순서(네이버)가 같은 날짜를 덮어씀
+        merged.update({d: c for d, c in pts if d != "0"})
+    merged.update({d: c for d, c in best if d != "0"})
+    pts = sorted((d, c) for d, c in merged.items() if d <= best[-1][0])
+    if len(pts) < 2:
+        pts = best
+    return pts, label
 
 
 MARKETS = [
     # (구분, 이름, 단위, 시도 순서, 차트에 넣을지)
-    ("미국", "S&P 500", "pt", [("네이버", lambda: naver_world("index", ".INX")), ("Stooq", lambda: stooq("^spx")), ("Yahoo", lambda: yahoo("^GSPC"))], True),
-    ("미국", "다우존스", "pt", [("네이버", lambda: naver_world("index", ".DJI")), ("Stooq", lambda: stooq("^dji")), ("Yahoo", lambda: yahoo("^DJI"))], False),
-    ("미국", "나스닥", "pt", [("네이버", lambda: naver_world("index", ".IXIC")), ("Stooq", lambda: stooq("^ndq")), ("Yahoo", lambda: yahoo("^IXIC"))], False),
+    ("미국", "S&P 500", "pt", [("네이버", lambda: naver_world("index", ".INX")), ("CNBC", lambda: cnbc(".SPX")), ("Stooq", lambda: stooq("^spx")), ("Yahoo", lambda: yahoo("^GSPC"))], True),
+    ("미국", "다우존스", "pt", [("네이버", lambda: naver_world("index", ".DJI")), ("CNBC", lambda: cnbc(".DJI")), ("Stooq", lambda: stooq("^dji")), ("Yahoo", lambda: yahoo("^DJI"))], False),
+    ("미국", "나스닥", "pt", [("네이버", lambda: naver_world("index", ".IXIC")), ("CNBC", lambda: cnbc(".IXIC")), ("Stooq", lambda: stooq("^ndq")), ("Yahoo", lambda: yahoo("^IXIC"))], False),
     ("한국", "코스피", "pt", [("네이버", lambda: naver_index("KOSPI")), ("Yahoo", lambda: yahoo("^KS11"))], True),
     ("한국", "코스닥", "pt", [("네이버", lambda: naver_index("KOSDAQ")), ("Yahoo", lambda: yahoo("^KQ11"))], True),
-    ("종목", "엔비디아", "USD", [("네이버", lambda: naver_world("stock", "NVDA.O")), ("Stooq", lambda: stooq("nvda.us")), ("Yahoo", lambda: yahoo("NVDA"))], True),
+    ("종목", "엔비디아", "USD", [("네이버", lambda: naver_world("stock", "NVDA.O")), ("CNBC", lambda: cnbc("NVDA")), ("Stooq", lambda: stooq("nvda.us")), ("Yahoo", lambda: yahoo("NVDA"))], True),
 ]
 
 
