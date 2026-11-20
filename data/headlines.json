@@ -2,31 +2,31 @@
  "rows": [
   {
    "category": "APEC 정상회의",
-   "title": "트럼프·시진핑·푸틴, 첫 정상회의서 힘 과시 노려",
-   "title_en": "Trump, Xi and Putin Seek to Project Power at Their First Summit",
+   "title": "트럼프 “시진핑과 젠슨 황 문제 논의”…베선트 발언과 엇갈려",
+   "title_en": "Trump says he discussed Jensen Huang with Xi, apparently contradicting Bessent",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+   "published": "2026-11-21T04:15+09:00"
+  },
+  {
+   "category": "APEC 정상회의",
+   "title": "푸틴, 정상회의서 상징적 성과 거두고 퇴장…“트럼프와 ‘가치’ 공유”",
+   "title_en": "Putin Exits Summit With Symbolic Win, Saying He and Trump Share ‘Values’",
    "source": "New York Times",
-   "url": "https://www.nytimes.com/live/2026/11/18/world/trump-xi-putin-apec",
-   "published": "2026-11-20T07:04+09:00"
+   "url": "https://www.nytimes.com/2026/11/20/world/europe/putin-trump-xi-summit-apec.html",
+   "published": "2026-11-20T22:56+09:00"
   },
   {
    "category": "APEC 정상회의",
-   "title": "선전 정상회의는 세계 평화를 지켜낼 수 있을까?",
-   "title_en": "Will the Shenzhen summit safeguard world peace?",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/video/inside-story/2026/11/19/will-the-shenzhen-summit-safeguard-world-peace",
-   "published": "2026-11-20T05:43+09:00"
+   "title": "트럼프 아시아 순방 마치고 귀국…미·중 무역·대만·기술 갈등은 미해결",
+   "title_en": "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html",
+   "published": "2026-11-20T22:29+09:00"
   },
   {
    "category": "APEC 정상회의",
-   "title": "트럼프·푸틴·시진핑, 역사적 회담 후 '평화 선언' 발표",
-   "title_en": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o",
-   "published": "2026-11-20T02:38+09:00"
-  },
-  {
-   "category": "APEC 정상회의",
-   "title": "중·러·미, 우크라이나·이란 전쟁 언급 없는 평화 선언에 합의",
+   "title": "중·러·미, 우크라이나·이란 전쟁 언급 없는 평화 선언 합의",
    "title_en": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
    "source": "The Guardian",
    "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
@@ -34,251 +34,243 @@
   },
   {
    "category": "APEC 정상회의",
-   "title": "트럼프, 중국 APEC 정상회의서 시진핑 연설 중 졸았다는 지적 받아",
+   "title": "트럼프, 중국 APEC 정상회의서 시진핑 연설 중 졸았다는 논란",
    "title_en": "Trump accused of falling asleep during Xi Jinping speech at Apec summit in China",
    "source": "The Guardian",
    "url": "https://www.theguardian.com/us-news/2026/nov/19/trump-apec-asleep-china",
    "published": "2026-11-20T02:12+09:00"
   },
   {
-   "category": "APEC 정상회의",
-   "title": "트럼프·시진핑·푸틴, 3자 회담 후 석유 증산·유엔 개편 계획 밝혀",
-   "title_en": "Trump, Xi, Putin said they plan to boost oil production, revamp UN after trilateral talks",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-trilateral-meeting-china.html",
-   "published": "2026-11-20T02:01+09:00"
-  },
-  {
-   "category": "APEC 정상회의",
-   "title": "트럼프 회담 이면에서 시진핑과 푸틴, 미국 패권 대체라는 비전 공유",
-   "title_en": "Behind Trump Meeting, Xi and Putin Share a Vision of Usurping U.S. Power",
-   "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/19/world/asia/xi-putin-trump-meeting-china-russia.html",
-   "published": "2026-11-19T21:41+09:00"
-  },
-  {
-   "category": "APEC 정상회의",
-   "title": "다카이치, 2019년 이후 첫 일본 정상 방중에서 냉랭한 대접",
-   "title_en": "Takaichi gets chilly reception in China on first Japan leader visit since 2019",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/19/japan-china-trump-takaichi-taiwan-.html",
-   "published": "2026-11-19T16:38+09:00"
-  },
-  {
    "category": "중동",
-   "title": "이란 전쟁의 예상치 못한 여파",
-   "title_en": "Unexpected Fallout From the Iran War",
-   "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/19/climate/iea-energy-transition-electric-cars.html",
-   "published": "2026-11-20T06:40+09:00"
-  },
-  {
-   "category": "중동",
-   "title": "미 상원 공화당, 트럼프의 이란 전쟁 권한 제한안 부결",
-   "title_en": "Senate Republicans in US reject measure to limit Trump’s war powers in Iran",
+   "title": "이라크 총리, 국가 통제력 확립 위해 민병대 거점 겨냥",
+   "title_en": "Iraq PM targets militia stronghold in bid to assert state control",
    "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/19/senate-republicans-in-us-reject-measure-to-limit-trumps-war-powers-in-iran",
-   "published": "2026-11-20T05:30+09:00"
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_iraq-pm-targets-militia-stronghold-jurf-al-sakhar-201126",
+   "published": "2026-11-21T06:28+09:00"
   },
   {
    "category": "중동",
-   "title": "후티 반군 리야드 공격으로 사우디 국부펀드 타워 파손",
-   "title_en": "Saudi Sovereign Wealth Fund Tower Damaged as Houthis Attack Riyadh",
-   "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/19/world/middleeast/saudi-pif-riyadh-tower-houthis-attack.html",
-   "published": "2026-11-20T03:55+09:00"
+   "title": "가자지구 피란 어린이들, 세계 어린이날 기념",
+   "title_en": "Gaza’s displaced children celebrate World Children’s Day",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/gazas-displaced-children-celebrate-world-childrens-day",
+   "published": "2026-11-21T05:45+09:00"
   },
   {
    "category": "중동",
-   "title": "이스라엘군, 가자지구 '옐로 라인' 너머 지상 작전 완료",
-   "title_en": "Israeli military completes ground operation in Gaza beyond Yellow Line",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno",
-   "published": "2026-11-20T02:03+09:00"
+   "title": "이스라엘 드론 공격으로 가자지구 중부서 팔레스타인인 7명 사망",
+   "title_en": "Israeli drone attacks kill seven Palestinians in central Gaza",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/20/israeli-drone-attacks-kill-seven-palestinians-in-central-gaza",
+   "published": "2026-11-21T05:14+09:00"
+  },
+  {
+   "category": "중동",
+   "title": "팔레스타인 반하마스 단체들, 이스라엘 가자 작전 가담 의혹",
+   "title_en": "Palestinian anti-Hamas groups accused of role in Israel Gaza operation",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/20/palestinian-anti-hamas-groups-accused-of-role-in-israel-gaza-operation",
+   "published": "2026-11-21T04:57+09:00"
   },
   {
    "category": "러시아·우크라이나",
-   "title": "유럽 정상들 \"우크라이나 전쟁 종식 위해 러시아와 대화할 준비 돼\"",
+   "title": "덴마크, 모스크바의 암살 계획 의혹 제기하며 러시아 외교관 추방",
+   "title_en": "Denmark Expels Russian Diplomat After Accusing Moscow of Planning a Hit",
+   "source": "New York Times",
+   "url": "https://www.nytimes.com/2026/11/20/world/europe/denmark-russia-ukraine-rapper-assassination.html",
+   "published": "2026-11-21T06:47+09:00"
+  },
+  {
+   "category": "러시아·우크라이나",
+   "title": "폴란드 당국 “‘러시아 물체’ 추락”…현재까지 확인된 사실",
+   "title_en": "‘Russian Objects’ Crashed in Poland, Officials Say. Here’s What We Can See.",
+   "source": "New York Times",
+   "url": "https://www.nytimes.com/2026/11/20/world/europe/poland-russia-airspace-missile.html",
+   "published": "2026-11-21T05:30+09:00"
+  },
+  {
+   "category": "러시아·우크라이나",
+   "title": "에스토니아 국경 폐쇄에 러시아 “새로운 철의 장막” 반발",
+   "title_en": "Russia complains of ‘new Iron Curtain’ as Estonia shuts its borders",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/20/russia-complains-of-new-iron-curtain-as-estonia-shuts-its-borders",
+   "published": "2026-11-21T05:30+09:00"
+  },
+  {
+   "category": "러시아·우크라이나",
+   "title": "투스크 “우크라이나 동맹국 군사훈련 중 러시아 미사일 폴란드 타격”",
+   "title_en": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro",
+   "published": "2026-11-21T01:54+09:00"
+  },
+  {
+   "category": "러시아·우크라이나",
+   "title": "러시아, 우크라이나의 크림대교 공격 며칠 만에 키이우 교량 겨냥",
+   "title_en": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o",
+   "published": "2026-11-20T22:01+09:00"
+  },
+  {
+   "category": "러시아·우크라이나",
+   "title": "유럽 정상들 “우크라이나 전쟁 종식 위해 러시아와 협상할 준비”",
    "title_en": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
    "source": "BBC",
    "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go",
-   "published": "2026-11-20T06:21+09:00"
+   "published": "2026-11-20T09:50+09:00"
   },
   {
-   "category": "러시아·우크라이나",
-   "title": "유럽 정상들, 베를린에 모여 우크라이나 지지 재확인",
-   "title_en": "European leaders unite in Berlin to reaffirm support for Ukraine",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/19/european-leaders-unite-in-berlin-to-reaffirm-support-for-ukraine",
-   "published": "2026-11-20T04:40+09:00"
+   "category": "경제·시장",
+   "title": "AI 매도세에 나스닥 2026년 상승분 소멸…앤트로픽 상장 이틀째 주가에 타격",
+   "title_en": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+   "published": "2026-11-21T06:38+09:00"
   },
   {
-   "category": "러시아·우크라이나",
-   "title": "러시아 드론 떼 키이우 공습, 네덜란드·오스트리아 대사관 파손",
-   "title_en": "Dutch and Austrian Embassies Are Damaged as Russian Drones Swarm Kyiv",
+   "category": "경제·시장",
+   "title": "크라우드스트라이크 인수 협상 보도에 지스케일러 주가 18% 급등",
+   "title_en": "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html",
+   "published": "2026-11-21T06:35+09:00"
+  },
+  {
+   "category": "경제·시장",
+   "title": "S&P 500·다우 조정 국면 진입…AI 매도세 확산에 나스닥 올해 상승분 모두 반납",
+   "title_en": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+   "published": "2026-11-21T06:23+09:00"
+  },
+  {
+   "category": "경제·시장",
+   "title": "워시 “연준 인사들 발언 줄여야”…실제로는 오히려 늘어",
+   "title_en": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html",
+   "published": "2026-11-21T06:10+09:00"
+  },
+  {
+   "category": "경제·시장",
+   "title": "트럼프, 미국 기업의 해외 AI 데이터센터 건설 금지 위협",
+   "title_en": "Trump threatens ban on US firms building AI data centres overseas",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko",
+   "published": "2026-11-21T05:54+09:00"
+  },
+  {
+   "category": "경제·시장",
+   "title": "‘GTA VI’ 출시 열풍에 테이크투 판매 기록 경신",
+   "title_en": "Take-Two shatters sales record as 'GTA VI' launches to massive fanfare",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/20/take-two-sales-as-gta-vi-launches-to-massive-fanfare.html",
+   "published": "2026-11-21T05:26+09:00"
+  },
+  {
+   "category": "경제·시장",
+   "title": "앤트로픽, 화려한 상장 첫날 이후 주가 하락…기술주 매도세 지속",
+   "title_en": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo",
+   "published": "2026-11-21T05:00+09:00"
+  },
+  {
+   "category": "경제·시장",
+   "title": "캘리포니아주, 엔비디아 칩 수출품의 중국 유입 여부 조사",
+   "title_en": "California investigates Nvidia over whether chip exports ended up in China",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+   "published": "2026-11-20T18:18+09:00"
+  },
+  {
+   "category": "한반도",
+   "title": "한국, 새 수능 부정행위 방지책으로 학생 111명 적발",
+   "title_en": "South Korea catches 111 students with new measures against exam cheating",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo",
+   "published": "2026-11-20T19:16+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "중국 출신 신경과학자, 학회 다녀오던 중 ICE에 구금",
+   "title_en": "Chinese-Born Neuroscientist Is Detained by ICE While Traveling From Conference",
    "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/19/world/europe/ukraine-dutch-embassy.html",
-   "published": "2026-11-20T03:47+09:00"
+   "url": "https://www.nytimes.com/2026/11/20/science/chinese-scientist-detained-ice-princeton-eva-yi-xie-.html",
+   "published": "2026-11-21T06:11+09:00"
   },
   {
-   "category": "러시아·우크라이나",
-   "title": "교량 공격 후 푸틴 \"우크라이나 휴전 협상은 없다\"",
-   "title_en": "After Bridge Attack, Putin Says He Will ‘Not Be Negotiating’ Ukraine Cease-Fire",
+   "category": "국제",
+   "title": "아이티서 폭발물 다루던 엘살바도르 군인 2명 사망",
+   "title_en": "Two Salvadoran soldiers killed in Haiti while handling explosives",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/20/two-salvadoran-soldiers-killed-in-haiti-while-handling-explosives",
+   "published": "2026-11-21T05:59+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "미국 거주 시크교 분리주의 지도자 암살 모의 인도인에 징역 19년 이상 선고",
+   "title_en": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo",
+   "published": "2026-11-21T04:27+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "세르비아 베오그라드 시장, 야당 정치인 폭행 혐의로 기소",
+   "title_en": "Belgrade mayor charged with assaulting opposition politician in Serbia",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/20/belgrade-mayor-charged-with-assaulting-opposition-politician-in-serbia",
+   "published": "2026-11-21T04:15+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "백악관, 잇단 기술 장애 이후 사이버보안 책임자 해임",
+   "title_en": "White House removes cyber-security chief after series of tech outages",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo",
+   "published": "2026-11-21T04:03+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "버넘 “영국, 합의 이후 EU와 한층 긴밀한 관계 모색”",
+   "title_en": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o",
+   "published": "2026-11-21T02:49+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "영국, EU 정상회의서 브렉시트 ‘재설정’ 합의 발표: 알아야 할 것",
+   "title_en": "Britain Announces Brexit Reset Deal at E.U. Summit: What to Know",
    "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/19/world/europe/putin-shenzhen-crimea-bridge.html",
-   "published": "2026-11-20T01:51+09:00"
-  },
-  {
-   "category": "러시아·우크라이나",
-   "title": "푸틴, 우크라이나의 크림대교 공격에 '훨씬 더 고통스러운' 보복 다짐",
-   "title_en": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo",
-   "published": "2026-11-19T22:07+09:00"
-  },
-  {
-   "category": "경제·시장",
-   "title": "앤트로픽, 상장 첫날 주당 97.17달러로 마감…AI의 이정표",
-   "title_en": "Anthropic closes first day at $97.17 per share in landmark moment for AI: IPO live updates",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
-   "published": "2026-11-20T06:51+09:00"
-  },
-  {
-   "category": "경제·시장",
-   "title": "마스트 하원의원 \"상무부, 중국 기업에 AI 칩 87만9천여 개 판매 승인\"",
-   "title_en": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
-   "published": "2026-11-20T06:43+09:00"
-  },
-  {
-   "category": "경제·시장",
-   "title": "앤트로픽, 증시 데뷔로 세계 최고 가치 상장사 반열에",
-   "title_en": "Anthropic becomes one of world's most valuable public companies in stock market debut",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o",
-   "published": "2026-11-20T06:38+09:00"
-  },
-  {
-   "category": "경제·시장",
-   "title": "AMD, 중국 노출 의혹 제기한 공매도 보고서에 급락",
-   "title_en": "AMD dives on short-seller report of alleged China exposure",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
-   "published": "2026-11-20T06:14+09:00"
-  },
-  {
-   "category": "경제·시장",
-   "title": "팰로앨토 주가, 실적 호조와 오픈웨이트 모델 보안 승부수에 급등",
-   "title_en": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html",
-   "published": "2026-11-20T06:00+09:00"
-  },
-  {
-   "category": "경제·시장",
-   "title": "나스닥 앞 앤트로픽 IPO 항의 시위서 3명 체포",
-   "title_en": "Three arrested during Anthropic IPO protest outside Nasdaq",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/three-arrested-during-anthropic-ipo-protest-outside-nasdaq",
-   "published": "2026-11-20T05:59+09:00"
-  },
-  {
-   "category": "경제·시장",
-   "title": "금값의 나쁜 한 해 더 악화…가격이 계속 떨어지는 이유",
-   "title_en": "Gold's bad year is getting worse. Why its price keeps falling",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/19/gold-prices-fall-fed-rates-dollar.html",
-   "published": "2026-11-20T01:29+09:00"
-  },
-  {
-   "category": "경제·시장",
-   "title": "미국 컨소시엄, 중국 경쟁사 제치고 케냐 대형 광산 계약 따내",
-   "title_en": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o",
-   "published": "2026-11-19T21:56+09:00"
-  },
-  {
-   "category": "경제·시장",
-   "title": "IEA \"데이터센터 전력 사용량 2030년까지 두 배 될 수도\"",
-   "title_en": "Data center electricity use could double by 2030, IEA says",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/19/data-center-electricity-demand-iea.html",
-   "published": "2026-11-19T20:34+09:00"
+   "url": "https://www.nytimes.com/2026/11/20/world/europe/uk-eu-summit-brexit.html",
+   "published": "2026-11-21T01:50+09:00"
   },
   {
    "category": "국제",
-   "title": "미얀마 집단학살 판결, 이스라엘·가자 둘러싼 법정 공방 예고",
-   "title_en": "Myanmar Genocide Ruling Sets Up Court Fight Over Israel and Gaza",
+   "title": "차기 유엔 사무총장 경쟁, 강대국 간 분열 드러내",
+   "title_en": "Race to be next UN secretary general exposes divisions among world powers",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/world/2026/nov/20/race-to-be-next-un-secretary-general-exposes-divisions-among-world-powers",
+   "published": "2026-11-20T14:00+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "국제사법재판소 “미얀마, 로힝야족에 집단학살 저질러”",
+   "title_en": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds",
    "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/19/world/asia/icj-myanmar-gaza.html",
-   "published": "2026-11-20T06:17+09:00"
+   "url": "https://www.nytimes.com/2026/11/19/world/europe/myanmar-genocide-icj-decision-.html",
+   "published": "2026-11-20T10:37+09:00"
   },
   {
    "category": "국제",
-   "title": "미 항소법원, 트럼프의 베네수엘라인 TPS 추방 보호 종료 허용",
-   "title_en": "US appeals court lets Trump end TPS deportation protections for Venezuelans",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/19/us-appeals-court-lets-trump-end-tps-deportation-protections-for-venezuelans",
-   "published": "2026-11-20T06:11+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "파키스탄서 버스가 가스 탱커와 충돌해 10명 사망",
-   "title_en": "Ten killed in Pakistan as bus crashes into gas tanker",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/ten-killed-in-pakistan-as-bus-crashes-into-gas-tanker",
-   "published": "2026-11-20T06:09+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "유엔 최고 법원 \"미얀마, 로힝야 소수민족에 집단학살 저질러\"",
-   "title_en": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+   "title": "췌장암 알약 임상서 종양 사라져…큰 기대",
+   "title_en": "Massive hope for pancreatic cancer pill after trial saw tumours vanish",
    "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo",
-   "published": "2026-11-20T05:07+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "세네갈 앞바다서 이주민 태운 보트 침몰, 수십 명 실종",
-   "title_en": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo",
-   "published": "2026-11-20T00:52+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "베네수엘라, 마두로 축출 1년도 안 돼 미국과 군사 협정 체결",
-   "title_en": "Venezuela signs military deal with US less than a year after Maduro's removal",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo",
-   "published": "2026-11-19T22:31+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "덴마크, 수개월 외교 갈등 끝에 그린란드 관련 트럼프 안보 협정 비준",
-   "title_en": "Denmark ratifies Trump security deal over Greenland after months of diplomatic tensions",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/19/greenland-denmark-trump-security-military-bases.html",
-   "published": "2026-11-19T21:02+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "플로리다 목사, 아이티 대통령 암살 가담 혐의 유죄 평결",
-   "title_en": "Florida pastor found guilty over role in assassination of Haitian president",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cm702q0lg50po",
-   "published": "2026-11-19T20:44+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "나치 연루 논란 속 반 고흐 그림, 사상 최고가 1억9040만 달러에 낙찰",
-   "title_en": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo",
-   "published": "2026-11-19T09:49+09:00"
+   "url": "https://www.bbc.co.uk/news/articles/cqrmgjnzz9l0o",
+   "published": "2026-11-20T09:08+09:00"
   }
  ],
  "meta": [
@@ -288,7 +280,7 @@
   },
   {
    "label": "수집 시각",
-   "value": "2026-11-20T07:05+09:00"
+   "value": "2026-11-21T07:04+09:00"
   }
  ]
 }
