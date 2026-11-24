@@ -1,0 +1,52 @@
+name: 아침 브리핑 갱신
+
+on:
+  schedule:
+    # 매일 한국 시간 06:47 (UTC 21:47). GitHub 예약 실행은 보통 몇 분~십여 분 늦게 시작해서 7시 전후에 끝납니다.
+    - cron: "47 21 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: briefing-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 패키지 설치
+        run: pip install --quiet "anthropic>=0.80"
+
+      - name: 데이터 갱신
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/update.py
+
+      - name: 결과 미리보기
+        run: |
+          for f in data/weather.json data/markets.json; do echo "== $f"; cat "$f"; done
+          python -c "import json; r=json.load(open('data/headlines.json'))['rows']; print(len(r), '건'); [print(x['category'], '|', x['title']) for x in r[:40]]"
+
+      - name: 변경 내용 올리기 (main에서만)
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "바뀐 내용 없음"; exit 0; fi
+          git commit -m "데이터 갱신 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M') KST (GitHub Actions)"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            sleep 5
+          done
+          exit 1
