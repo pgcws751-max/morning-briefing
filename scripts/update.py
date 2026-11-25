@@ -347,6 +347,15 @@ def translate(items: list[dict]) -> list[dict] | None:
     return rows or None
 
 
+def recent_korean_headlines(hours: int = 6) -> bool:
+    try:
+        meta = {m["label"]: m["value"] for m in json.loads((DATA / "headlines.json").read_text())["meta"]}
+        at = datetime.fromisoformat(meta["수집 시각"])
+        return "우리말" in meta.get("출처", "") and NOW - at < timedelta(hours=hours)
+    except Exception:  # noqa: BLE001
+        return False
+
+
 def headlines() -> None:
     items = collect()
     if len(items) < 10:
@@ -358,6 +367,9 @@ def headlines() -> None:
         rows = None
     if rows:
         write("headlines", rows, "BBC, New York Times, The Guardian, Al Jazeera, CNBC RSS (제목은 우리말 번역)")
+        return
+    if recent_korean_headlines():
+        print("[info] 최근 6시간 안에 만든 우리말 헤드라인이 있어 영어 제목으로 덮어쓰지 않습니다")
         return
     # 번역 없이: 언론사별 최신 6건
     rows, count = [], {}
