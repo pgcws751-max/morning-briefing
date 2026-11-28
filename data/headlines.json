@@ -1,268 +1,268 @@
 {
  "rows": [
   {
-   "category": "미국 신규 관세",
-   "title": "트럼프의 새 관세, 세계에 어떤 의미인가",
-   "title_en": "What will Trump’s latest tariffs mean for the world?",
+   "category": "스페인 총선",
+   "title": "'리듬의 활동가들': 예술로 스페인 극우에 맞서다",
+   "title_en": "‘Activists of rhythm’: Fighting Spain’s far-right through art",
    "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/video/inside-story/2026/11/26/what-will-trumps-latest-tariffs-mean-for-the-world",
-   "published": "2026-11-27T03:53+09:00"
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/activists-of-rhythm-fighting-spains-far-right-through-art",
+   "published": "2026-11-28T06:59+09:00"
   },
   {
-   "category": "미국 신규 관세",
-   "title": "미국 관세 인상 위협에 무역 상대국들 협정 서명 압박 커져",
-   "title_en": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+   "category": "스페인 총선",
+   "title": "스페인 총리와 경쟁자들, 막판 지지층 결집 유세",
+   "title_en": "Spanish PM and rivals rally supporters in final pitch for votes",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo",
+   "published": "2026-11-28T06:55+09:00"
+  },
+  {
+   "category": "스페인 총선",
+   "title": "1975년 끝난 스페인 극우 시대, 이 남자가 바꿀까",
+   "title_en": "Spain’s Far-Right Era Ended in 1975. Will This Man Change That?",
+   "source": "New York Times",
+   "url": "https://www.nytimes.com/2026/11/27/world/europe/santiago-abascal-vox-spain-far-right.html",
+   "published": "2026-11-27T23:45+09:00"
+  },
+  {
+   "category": "스페인 총선",
+   "title": "스페인 총선, 마드리드를 트럼프의 워싱턴 쪽으로 끌어당길 수도",
+   "title_en": "Spain’s election could pull Madrid closer to Trump’s Washington",
    "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
-   "published": "2026-11-26T21:46+09:00"
+   "url": "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html",
+   "published": "2026-11-27T22:00+09:00"
   },
   {
-   "category": "미국 신규 관세",
-   "title": "중국, 트럼프 새 관세안에 '필요한 조치' 취할 권리 있다고 밝혀",
-   "title_en": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
+   "category": "스페인 총선",
+   "title": "\"불가능하다\": 일요일 총선 앞둔 스페인 청년들의 주거 문제",
+   "title_en": "'It's impossible': Spain's young people on housing ahead of Sunday's election",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/videos/cm9w9y8947xqo",
+   "published": "2026-11-27T15:09+09:00"
+  },
+  {
+   "category": "중동",
+   "title": "이란 전쟁 속보: 이탈리아 \"쿠웨이트 치명적 공격 드론은 이란제\"",
+   "title_en": "Iran war live: Italy says drone in deadly Kuwait attack was made in Iran",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran",
+   "published": "2026-11-28T09:00+09:00"
+  },
+  {
+   "category": "중동",
+   "title": "미국, 이란 봉쇄 돌파 시도한 선박 무력화",
+   "title_en": "US disables ship attempting to breach Iran blockade",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade",
+   "published": "2026-11-28T08:55+09:00"
+  },
+  {
+   "category": "중동",
+   "title": "예멘 북부, 식량이 팔리는 곳에서도 가족들이 굶주리는 이유",
+   "title_en": "Why are families going hungry in northern Yemen even where food is on sale?",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/11/27/why-are-families-going-hungry-in-northern-yemen-even-where-food-is-on-sale",
+   "published": "2026-11-28T06:11+09:00"
+  },
+  {
+   "category": "중동",
+   "title": "하마스 지도자의 마지막 생존 아들, 가자 이스라엘 공습에서 탈출",
+   "title_en": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126",
+   "published": "2026-11-28T05:18+09:00"
+  },
+  {
+   "category": "중동",
+   "title": "쿠웨이트 드론 공격으로 이탈리아인 2명 사망…트럼프 \"이란 전쟁은 내가 원할 때 끝난다\"",
+   "title_en": "Two Italians killed in Kuwait drone attack; Trump says Iran war ends ‘whenever I want it’",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/27/us-iran-war-trump-hormuz-italian-killed-trump.html",
+   "published": "2026-11-27T12:30+09:00"
+  },
+  {
+   "category": "러시아·우크라이나",
+   "title": "러시아의 거대한 AI 야망, 전쟁의 제약에 발목",
+   "title_en": "Russia’s Big Ambitions for A.I. Are Undercut by Constraints of War",
+   "source": "New York Times",
+   "url": "https://www.nytimes.com/2026/11/27/world/europe/russia-ai-journey-conference.html",
+   "published": "2026-11-28T06:41+09:00"
+  },
+  {
+   "category": "러시아·우크라이나",
+   "title": "푸틴, 극초음속 무기 탑재 신형 핵추진 잠수함 공개",
+   "title_en": "Putin unveils new Russian nuclear-powered submarine with hypersonic weapons",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons",
+   "published": "2026-11-28T05:39+09:00"
+  },
+  {
+   "category": "러시아·우크라이나",
+   "title": "전쟁에 지쳤지만 물러설 기미 없는 키이우, 또 혹독한 겨울 맞아",
+   "title_en": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o",
+   "published": "2026-11-28T03:42+09:00"
+  },
+  {
+   "category": "러시아·우크라이나",
+   "title": "젤렌스키, BBC 인터뷰서 트럼프·푸틴의 '이상한' 친분 비판",
+   "title_en": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo",
+   "published": "2026-11-28T03:00+09:00"
+  },
+  {
+   "category": "러시아·우크라이나",
+   "title": "명판 하나씩, 굴라그의 참상 기억 지우는 러시아",
+   "title_en": "Plaque by Plaque, Russia Erases the Memory of the Gulag’s Horrors",
+   "source": "New York Times",
+   "url": "https://www.nytimes.com/2026/11/27/world/europe/russia-gulag-memory.html",
+   "published": "2026-11-27T19:00+09:00"
+  },
+  {
+   "category": "경제·시장",
+   "title": "오픈AI, 영업비밀 두고 애플에 맞소송…AI 경쟁 격화",
+   "title_en": "OpenAI countersues Apple over trade secrets as AI race heats up",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up",
+   "published": "2026-11-28T05:40+09:00"
+  },
+  {
+   "category": "경제·시장",
+   "title": "스페이스X 주가 4% 넘게 상승…기술주 랠리에 머스크의 '트럼프 계좌' 주식 기부 확대 발언",
+   "title_en": "SpaceX shares jump over 4% amid tech rally and after Musk says he will expand on Trump Account share donations",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html",
+   "published": "2026-11-28T03:24+09:00"
+  },
+  {
+   "category": "경제·시장",
+   "title": "저비용 항공사 노스 애틀랜틱, 자금 확보 실패로 유럽서 파산 신청",
+   "title_en": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html",
+   "published": "2026-11-28T03:20+09:00"
+  },
+  {
+   "category": "경제·시장",
+   "title": "다우 600포인트 가까이 급등, 2022년 이후 최고의 한 주 마감",
+   "title_en": "Dow rallies nearly 600 points to close out best week since 2022: Live updates",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html",
+   "published": "2026-11-28T03:11+09:00"
+  },
+  {
+   "category": "경제·시장",
+   "title": "독일 SAP, AI 전환 위해 최소 1만 명 감원 보도",
+   "title_en": "German software firm SAP is reportedly cutting at least 10,000 jobs in AI push",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html",
+   "published": "2026-11-27T23:52+09:00"
+  },
+  {
+   "category": "경제·시장",
+   "title": "EU 정상들, 1조7천억 달러 예산 교착 타개 실패…정치적 압박 가중",
+   "title_en": "EU leaders fail to break $1.7 trillion budget deadlock as political pressure mounts",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/27/eu-budget-2028-2034-deadlock.html",
+   "published": "2026-11-27T23:12+09:00"
+  },
+  {
+   "category": "경제·시장",
+   "title": "테크 다운로드: 젠슨 황의 복귀, 흔들리는 AI 시장의 불씨 될까",
+   "title_en": "The Tech Download: Will Jensen Huang’s return be the spark the shaky AI market needs?",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/27/tech-download-jensen-huang-ai-market.html",
+   "published": "2026-11-27T21:00+09:00"
+  },
+  {
+   "category": "한반도",
+   "title": "탈북민 자녀들의 안식처가 위협받고 있다",
+   "title_en": "The Threat to a Sanctuary for Children of North Korean Defectors",
+   "source": "New York Times",
+   "url": "https://www.nytimes.com/2026/11/27/world/asia/north-korea-defectors-children-school-seoul.html",
+   "published": "2026-11-27T14:00+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "프란체스카 알바네세, 입국 금지한 코스타리카에 사과 요구",
+   "title_en": "Francesca Albanese seeks apology from Costa Rica after entry ban",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/francesca-albanese-seeks-apology-from-costa-rica-after-entry-ban",
+   "published": "2026-11-28T09:12+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "스페인 카나리아 제도 앞 이주민 보트서 최소 8명 숨진 채 발견",
+   "title_en": "At least eight found dead on migrant boat off Spain’s Canary Islands",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/27/at-least-eight-found-dead-on-migrant-boat-off-spains-canary-islands",
+   "published": "2026-11-28T08:57+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "대만, 원전 부활 투표하나…AI에 왜 중요한가",
+   "title_en": "Will Taiwan vote to revive nuclear power – and why does that matter for AI?",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/27/will-taiwan-vote-to-revive-nuclear-power-and-why-does-that-matter-for-ai",
+   "published": "2026-11-28T08:09+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "\"캐나다인에 대한 모욕\": 미국 대사 축출 청원, 의회에 제출",
+   "title_en": "‘Abusive and insulting to Canadians’: campaign to oust US ambassador presented to parliament",
    "source": "The Guardian",
-   "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
-   "published": "2026-11-26T21:00+09:00"
+   "url": "https://www.theguardian.com/world/2026/nov/27/pete-hoekstra-canada-us-ambassador-petition",
+   "published": "2026-11-28T06:24+09:00"
   },
   {
-   "category": "중동",
-   "title": "쿠웨이트 공습으로 이탈리아인 2명 사망…이란은 책임 부인",
-   "title_en": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o",
-   "published": "2026-11-27T06:17+09:00"
-  },
-  {
-   "category": "중동",
-   "title": "사우디 지잔 정유시설 공격으로 1명 사망…가동 차질",
-   "title_en": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
+   "category": "국제",
+   "title": "베네수엘라, 야권 인사 공직 금지법 폐지 추진",
+   "title_en": "Venezuela to repeal law that bans opposition figures from office",
    "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations",
-   "published": "2026-11-27T05:34+09:00"
+   "url": "https://www.aljazeera.com/news/2026/11/27/venezuela-to-repeal-law-that-bans-opposition-figures-from-office",
+   "published": "2026-11-28T05:44+09:00"
   },
   {
-   "category": "중동",
-   "title": "겨울비에 가자 팔레스타인인들이 또다시 피란하는 이유는",
-   "title_en": "Why are winter rains forcing Palestinians in Gaza to flee again?",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/26/why-are-winter-rains-forcing-palestinians-in-gaza-to-flee-again",
-   "published": "2026-11-27T04:19+09:00"
-  },
-  {
-   "category": "중동",
-   "title": "IS 소행 추정 공격으로 시리아 보안군 2명 사망",
-   "title_en": "Attack Blamed on ISIS Kills 2 Syrian Security Force Members",
-   "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/26/world/middleeast/isis-attack-syria.html",
-   "published": "2026-11-26T20:08+09:00"
-  },
-  {
-   "category": "중동",
-   "title": "이스라엘 가자 공습에 하마스 정치 간부 부부 등 팔레스타인인 8명 사망",
-   "title_en": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo",
-   "published": "2026-11-26T19:14+09:00"
-  },
-  {
-   "category": "러시아·우크라이나",
-   "title": "EU 정상들, 장기 예산과 490억 달러 우크라이나 대출 합의 난항",
-   "title_en": "EU leaders struggle to agree on long-term budget, $49bn Ukraine loan",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/economy/2026/11/26/eu-leaders-struggle-to-agree-on-long-term-budget-more-money-for-ukraine",
-   "published": "2026-11-27T02:53+09:00"
-  },
-  {
-   "category": "러시아·우크라이나",
-   "title": "우크라이나 에너지 시설 공격 격화 속 트럼프·나토 사무총장, 러시아에 경고",
-   "title_en": "Trump, NATO chief caution Russia as attacks on Ukraine’s energy infrastructure intensify",
+   "category": "국제",
+   "title": "해커들, 미 공군 핵심 클라우드 플랫폼 '클라우드 원' 침입",
+   "title_en": "Hackers breach U.S. Air Force flagship Cloud One computing platform",
    "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
-   "published": "2026-11-27T01:12+09:00"
+   "url": "https://www.cnbc.com/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform.html",
+   "published": "2026-11-28T05:03+09:00"
   },
   {
-   "category": "러시아·우크라이나",
-   "title": "고액 연봉에 속아 러시아군으로 참전한 브라질인들",
-   "title_en": "Lured by High Salaries, Some Brazilians Were Duped Into Fighting for Russia",
+   "category": "국제",
+   "title": "케냐 종말론 사이비 교주, 추가 123명 사망 관련 유죄 판결",
+   "title_en": "Kenyan doomsday cult leader convicted over further 123 deaths",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo",
+   "published": "2026-11-28T02:19+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "캐나다 대법원, 공무원 종교 상징 착용 금지한 퀘벡 법 대체로 유지",
+   "title_en": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o",
+   "published": "2026-11-28T01:53+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "브라질, 자국 고기가 '약물 투여'됐다는 마크롱 발언에 반발",
+   "title_en": "Brazil pushes back on Macron calling its meat 'doped'",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo",
+   "published": "2026-11-28T00:54+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "반중 성향 푸마 선, 차기 타이베이 시장 될 수도",
+   "title_en": "Puma Shen, Critic of China, Could be the Next Mayor of Taipei",
    "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/26/world/americas/brazil-recruiting-russia-army.html",
-   "published": "2026-11-26T23:01+09:00"
-  },
-  {
-   "category": "러시아·우크라이나",
-   "title": "'슬픔에 갇혀'…러시아 억류 일본 언론인 아내, 석방 호소",
-   "title_en": "‘Trapped in grief’: wife of Japanese journalist detained by Russia pleads for his release",
-   "source": "The Guardian",
-   "url": "https://www.theguardian.com/world/2026/nov/26/japanese-journalist-yuki-imai-detained-in-russia-wife-pleads-his-release",
-   "published": "2026-11-26T14:16+09:00"
-  },
-  {
-   "category": "경제·시장",
-   "title": "머스크, 미국 어린이 1인당 SpaceX 주식 2주 기부 약속",
-   "title_en": "Musk pledges two SpaceX shares for every US child",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/economy/2026/11/26/musk-pledges-two-spacex-shares-for-every-us-child",
-   "published": "2026-11-27T05:19+09:00"
-  },
-  {
-   "category": "경제·시장",
-   "title": "트럼프, 중간선거 앞 발표된 GDP 통계 '가짜'라며 조사 요구",
-   "title_en": "Trump calls GDP data released before midterms ‘fake’, demands investigation",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/economy/2026/11/26/trump-calls-gdp-data-released-before-midterms-fake-demands-investigation",
-   "published": "2026-11-27T03:27+09:00"
-  },
-  {
-   "category": "경제·시장",
-   "title": "엔비디아 칩 구매자들에 중국 임차인 배제 요구, 소식통",
-   "title_en": "Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
-   "published": "2026-11-27T02:04+09:00"
-  },
-  {
-   "category": "경제·시장",
-   "title": "스페인의 파블로 에르난데스 데 코스, 유럽중앙은행 총재 유력",
-   "title_en": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html",
-   "published": "2026-11-27T00:28+09:00"
-  },
-  {
-   "category": "경제·시장",
-   "title": "스위스 최대 은행, 위기 대비 속 자본 규제 놓고 의회와 정면 대결",
-   "title_en": "Switzerland’s biggest bank set for showdown with lawmakers as capital fight intensifies amid crisis planning",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/26/ubs-swiss-capital-rules-finma-crisis-plan.html",
-   "published": "2026-11-26T20:17+09:00"
-  },
-  {
-   "category": "경제·시장",
-   "title": "노르스 애틀랜틱, 주가 폭락 뒤 전 항공편 중단…파산 신청 가능성 경고",
-   "title_en": "Norse Atlantic suspends all flights, warns it may file for bankruptcy after share price collapse",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html",
-   "published": "2026-11-26T18:02+09:00"
-  },
-  {
-   "category": "경제·시장",
-   "title": "AI 매도세 속 유럽 부유층, 주식 외 투자처 모색",
-   "title_en": "Wealthy Europeans look beyond stocks amid AI selloff. Here’s where they’re investing",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/26/wealthy-europeans-alternative-investments-ai.html",
-   "published": "2026-11-26T16:23+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "최대 7천 톤 실은 디젤 유조선, 이비사 인근서 전복…1명 사망",
-   "title_en": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do",
-   "published": "2026-11-27T07:01+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "영국, 엡스타인 연루 피터 맨델슨 전 대사 관련 문서 공개",
-   "title_en": "U.K. Releases Files on Peter Mandelson, Ambassador Tied to Jeffrey Epstein",
-   "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/26/world/europe/peter-mandelson-epstein-uk.html",
-   "published": "2026-11-27T06:40+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "방글라데시 의류 노동자들, 저임금 항의하며 경찰과 충돌",
-   "title_en": "Bangladesh garment workers clash with police over low wages",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/bangladesh-garment-workers-clash-with-police-over-low-wages",
-   "published": "2026-11-27T06:04+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "멕시코, SpaceX 잔해 추정 물체 관련 미국과 협의 요청",
-   "title_en": "Mexico seeks US talks about suspected SpaceX debris",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/26/mexico-seeks-us-talks-about-suspected-spacex-debris",
-   "published": "2026-11-27T05:31+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "법원, 트럼프의 최신 미국 출생시민권 제한 조치 무효화",
-   "title_en": "Judge strikes down Trump’s latest restrictions on US birthright citizenship",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/26/judge-strikes-down-trumps-latest-restrictions-on-us-birthright-citizenship",
-   "published": "2026-11-27T04:09+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "영국 순이민, 팬데믹 제외 1997년 이후 최저",
-   "title_en": "Net Migration to U.K. Falls to Lowest Level Since 1997, Excluding Pandemic",
-   "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/26/world/europe/uk-net-migration-data.html",
-   "published": "2026-11-27T03:52+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "방콕 정유공장 폭발로 9명 부상, 3명 위독",
-   "title_en": "Nine injured, three critically, after Bangkok oil refinery explosion",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo",
-   "published": "2026-11-27T01:21+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "제라르 드파르디외, 2018년 여배우 성폭행 혐의로 재판 회부 결정",
-   "title_en": "Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o",
-   "published": "2026-11-26T23:44+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "이집트 당국, 31명 숨진 유조차 사고 운전자 체포",
-   "title_en": "Egyptian authorities arrest motorist over tanker crash that killed 31",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o",
-   "published": "2026-11-26T21:16+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "더 저렴한 HIV 예방 주사 아프리카 도착…수백만 명에 희망",
-   "title_en": "Hope for millions as cheaper HIV prevention jab reaches Africa",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cmly7jve72r2o",
-   "published": "2026-11-26T20:00+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "미얀마, 국제사법재판소 집단학살 판결 일부 이행 거부",
-   "title_en": "Myanmar refuses to comply with parts of ICJ genocide ruling",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/c61wr87wyg5wo",
-   "published": "2026-11-26T19:25+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "다카이치 일본 총리, 중국 정상회의서 홀대받았나",
-   "title_en": "Was Japan Prime Minister Takaichi Snubbed at China’s Big Summit?",
-   "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/26/world/asia/japan-china-takaichi-snubbed.html",
-   "published": "2026-11-26T18:14+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "홍콩, 당국의 감시 속 화재 희생자 추모",
-   "title_en": "Hong Kong Grieves Fire Victims Under Watchful Eye of Authorities",
-   "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/26/world/asia/hong-kong-fire-wang-fuk-court-anniversary.html",
-   "published": "2026-11-26T18:06+09:00"
-  },
-  {
-   "category": "국제",
-   "title": "광산 참사로 13명 사망…불법 금 채굴 실태 드러나",
-   "title_en": "Thirteen dead as mine disaster highlights illegal hunt for gold",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro",
-   "published": "2026-11-26T16:31+09:00"
+   "url": "https://www.nytimes.com/2026/11/27/world/asia/puma-shen-taiwan-election-china.html",
+   "published": "2026-11-27T22:33+09:00"
   }
  ],
  "meta": [
@@ -272,7 +272,7 @@
   },
   {
    "label": "수집 시각",
-   "value": "2026-11-27T07:05+09:00"
+   "value": "2026-11-28T10:52+09:00"
   }
  ]
 }
