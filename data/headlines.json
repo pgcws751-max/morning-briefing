@@ -1,250 +1,186 @@
 {
  "rows": [
   {
-   "category": "BBC",
-   "title": "Ten students killed and over 100 injured in explosion in Afghanistan, official says",
-   "title_en": "",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-28T20:18+09:00"
-  },
-  {
-   "category": "BBC",
-   "title": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
-   "title_en": "",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-28T19:34+09:00"
-  },
-  {
-   "category": "BBC",
-   "title": "Australian wrestler Bronson Reed dies aged 38, WWE says",
-   "title_en": "",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cvwy08g70ldko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-28T16:31+09:00"
-  },
-  {
-   "category": "BBC",
-   "title": "Butcher blames costs for closure after 127 years",
-   "title_en": "",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cqe9k3m9mvexo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-28T16:18+09:00"
-  },
-  {
-   "category": "BBC",
-   "title": "Eight killed in Peruvian military helicopter crash",
-   "title_en": "",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-28T13:19+09:00"
-  },
-  {
-   "category": "BBC",
-   "title": "Turkish officials 'destroyed' pro-opposition TV channel, owner tells BBC",
-   "title_en": "",
-   "source": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cq36gk151xkdo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-28T13:13+09:00"
-  },
-  {
-   "category": "New York Times",
-   "title": "Princess Catherine’s Cancer Documentary ‘Heal’: 3 Takeaways",
-   "title_en": "",
-   "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/27/world/europe/princess-catherine-kate-heal-cancer-documentary.html",
-   "published": "2026-11-28T20:26+09:00"
-  },
-  {
-   "category": "New York Times",
-   "title": "Retail Therapy",
-   "title_en": "",
-   "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/28/briefing/retail-therapy.html",
-   "published": "2026-11-28T20:19+09:00"
-  },
-  {
-   "category": "New York Times",
-   "title": "Behind the Story: Canada’s Border Rules Are Splitting Up Haitian Families",
-   "title_en": "",
-   "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/28/world/canada/us-border-haitian-families-third-safe-country.html",
-   "published": "2026-11-28T20:00+09:00"
-  },
-  {
-   "category": "New York Times",
-   "title": "Ukraine’s Deep Strikes Grow in Scale and Scope Across Russia and Beyond",
-   "title_en": "",
-   "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/28/world/europe/ukraine-russia-long-range-strikes.html",
-   "published": "2026-11-28T19:02+09:00"
-  },
-  {
-   "category": "New York Times",
-   "title": "Freed From a Notorious Syrian Prison, but Still Trapped by Its Terror",
-   "title_en": "",
-   "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/28/world/middleeast/freed-from-a-notorious-syrian-prison-but-still-trapped-by-its-terror.html",
-   "published": "2026-11-28T19:00+09:00"
-  },
-  {
-   "category": "New York Times",
-   "title": "Canada’s Arctic Reservists Know the Land. Fewer Young People Do.",
-   "title_en": "",
-   "source": "New York Times",
-   "url": "https://www.nytimes.com/2026/11/28/world/canada/canada-rangers-quebec-arctic-military.html",
-   "published": "2026-11-28T19:00+09:00"
-  },
-  {
-   "category": "The Guardian",
-   "title": "Victorian election 2026 live results: Jess Wilson vows to ‘bring back hope’ to Victoria after historic victory over Labor",
-   "title_en": "",
-   "source": "The Guardian",
-   "url": "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb",
-   "published": "2026-11-28T20:17+09:00"
-  },
-  {
-   "category": "The Guardian",
-   "title": "Victorian election 2026: Ben Carroll concedes to Jess Wilson, ending 12 years of Labor government",
-   "title_en": "",
-   "source": "The Guardian",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/28/victoria-election-2026-winner-announced-who-won-poll-win-coalition-labor-victorian-state-results",
-   "published": "2026-11-28T20:13+09:00"
-  },
-  {
-   "category": "The Guardian",
-   "title": "Spain to vote in election that could put far right in power for first time since Franco",
-   "title_en": "",
+   "category": "스페인 총선",
+   "title": "스페인 내일 총선…프랑코 이후 처음으로 극우 집권 가능성",
+   "title_en": "Spain to vote in election that could put far right in power for first time since Franco",
    "source": "The Guardian",
    "url": "https://www.theguardian.com/world/2026/nov/28/spain-vote-election-could-far-right-power-first-time-franco",
    "published": "2026-11-28T20:00+09:00"
   },
   {
-   "category": "The Guardian",
-   "title": "DWP cyber incident ‘probably an attack’, says former UK chief technology officer",
-   "title_en": "",
-   "source": "The Guardian",
-   "url": "https://www.theguardian.com/technology/2026/nov/28/dwp-cyber-incident-probably-attack-former-uk-chief-technology-officer-david-knott",
-   "published": "2026-11-28T19:52+09:00"
-  },
-  {
-   "category": "The Guardian",
-   "title": "Woman ‘traumatised’ by Sainsbury’s shoplifting ban after staff facial recognition error",
-   "title_en": "",
-   "source": "The Guardian",
-   "url": "https://www.theguardian.com/technology/2026/nov/28/woman-traumatised-sainsburys-shoplifting-ban-after-staff-facial-recognition-error",
-   "published": "2026-11-28T19:00+09:00"
-  },
-  {
-   "category": "The Guardian",
-   "title": "Unpaid TV licence or cycling on pavement could bar people from settling in UK",
-   "title_en": "",
-   "source": "The Guardian",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/28/new-immigration-rules-uk-unpaid-tv-licence-cycling-pavement-adult-convictions",
-   "published": "2026-11-28T17:00+09:00"
-  },
-  {
-   "category": "Al Jazeera",
-   "title": "Two visions of Spain collide as voters weigh PM Sanchez’s record",
-   "title_en": "",
+   "category": "스페인 총선",
+   "title": "산체스 총리 성적표 놓고 충돌하는 두 개의 스페인",
+   "title_en": "Two visions of Spain collide as voters weigh PM Sanchez’s record",
    "source": "Al Jazeera",
    "url": "https://www.aljazeera.com/news/2026/11/28/two-visions-of-spain-collide-as-voters-weigh-sanchez-record?traffic_source=rss",
    "published": "2026-11-28T19:36+09:00"
   },
   {
-   "category": "Al Jazeera",
-   "title": "Why is Trump backing Iraq’s anti-smuggling campaign?",
-   "title_en": "",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/28/why-is-trump-backing-iraqs-anti-smuggling-campaign?traffic_source=rss",
-   "published": "2026-11-28T19:32+09:00"
+   "category": "중동",
+   "title": "국경없는의사회 \"이스라엘, 가자 진료소 공습…직원 2명 사망\"",
+   "title_en": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-28T19:34+09:00"
   },
   {
-   "category": "Al Jazeera",
-   "title": "Several students killed in blast beside Afghan school",
-   "title_en": "",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/several-students-killed-in-blast-beside-afghan-school?traffic_source=rss",
-   "published": "2026-11-28T19:05+09:00"
-  },
-  {
-   "category": "Al Jazeera",
-   "title": "Kenyan starvation cult leader found guilty over deaths of 123 followers",
-   "title_en": "",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/28-11-sv-kenya-cult-leader-paul-mackenzie?traffic_source=rss",
-   "published": "2026-11-28T18:59+09:00"
-  },
-  {
-   "category": "Al Jazeera",
-   "title": "Gaza’s chess players survive a genocide and rebuild a community",
-   "title_en": "",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/features/2026/11/28/gazas-chess-players-survive-a-genocide-and-rebuild-a-community?traffic_source=rss",
-   "published": "2026-11-28T18:41+09:00"
-  },
-  {
-   "category": "Al Jazeera",
-   "title": "Yemen government forces hit Houthi positions as UN warns of hunger crisis",
-   "title_en": "",
+   "category": "중동",
+   "title": "예멘 정부군, 후티 거점 공격…유엔은 기아 위기 경고",
+   "title_en": "Yemen government forces hit Houthi positions as UN warns of hunger crisis",
    "source": "Al Jazeera",
    "url": "https://www.aljazeera.com/news/2026/11/28/yemen-governmen-forces-hit-houthi-positions-as-un-warns-of-hunger-crisis?traffic_source=rss",
    "published": "2026-11-28T18:35+09:00"
   },
   {
-   "category": "CNBC",
-   "title": "Musk says Google is interested in renting more computing capacity from SpaceX",
-   "title_en": "",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/28/musk-says-google-wants-to-rent-more-computing-capacity-from-spacex.html",
-   "published": "2026-11-28T19:50+09:00"
+   "category": "중동",
+   "title": "트럼프는 왜 이라크의 밀수 단속을 지원하나",
+   "title_en": "Why is Trump backing Iraq’s anti-smuggling campaign?",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/28/why-is-trump-backing-iraqs-anti-smuggling-campaign?traffic_source=rss",
+   "published": "2026-11-28T19:32+09:00"
   },
   {
-   "category": "CNBC",
-   "title": "U.S. military repelled drones at UK airbase this month, FT reports",
-   "title_en": "",
+   "category": "중동",
+   "title": "시리아 악명 높은 감옥에서 풀려났지만 여전히 공포에 갇힌 사람들",
+   "title_en": "Freed From a Notorious Syrian Prison, but Still Trapped by Its Terror",
+   "source": "New York Times",
+   "url": "https://www.nytimes.com/2026/11/28/world/middleeast/freed-from-a-notorious-syrian-prison-but-still-trapped-by-its-terror.html",
+   "published": "2026-11-28T19:00+09:00"
+  },
+  {
+   "category": "중동",
+   "title": "집단학살에서 살아남아 공동체를 다시 세우는 가자의 체스 선수들",
+   "title_en": "Gaza’s chess players survive a genocide and rebuild a community",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/features/2026/11/28/gazas-chess-players-survive-a-genocide-and-rebuild-a-community?traffic_source=rss",
+   "published": "2026-11-28T18:41+09:00"
+  },
+  {
+   "category": "러시아·우크라이나",
+   "title": "우크라이나의 러시아 본토 깊숙한 타격, 규모·범위 계속 확대",
+   "title_en": "Ukraine’s Deep Strikes Grow in Scale and Scope Across Russia and Beyond",
+   "source": "New York Times",
+   "url": "https://www.nytimes.com/2026/11/28/world/europe/ukraine-russia-long-range-strikes.html",
+   "published": "2026-11-28T19:02+09:00"
+  },
+  {
+   "category": "러시아·우크라이나",
+   "title": "FT \"미군, 이달 영국 공군기지에서 드론 격퇴\"",
+   "title_en": "U.S. military repelled drones at UK airbase this month, FT reports",
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/11/28/us-military-repelled-drones-at-uk-airbase-this-month-ft-reports.html",
    "published": "2026-11-28T16:40+09:00"
   },
   {
-   "category": "CNBC",
-   "title": "Defense company Chemring protects NATO fleets. Here's why an activist investor wants it to break up",
-   "title_en": "",
+   "category": "경제·시장",
+   "title": "머스크 \"구글, 스페이스X 컴퓨팅 용량 추가 임대에 관심\"",
+   "title_en": "Musk says Google is interested in renting more computing capacity from SpaceX",
    "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/28/defense-nato-activist-investor.html",
-   "published": "2026-11-28T15:15+09:00"
+   "url": "https://www.cnbc.com/2026/11/28/musk-says-google-wants-to-rent-more-computing-capacity-from-spacex.html",
+   "published": "2026-11-28T19:50+09:00"
   },
   {
-   "category": "CNBC",
-   "title": "Saudi Arabia shifts Vision 2030 spending amid economic and security pressure",
-   "title_en": "",
+   "category": "경제·시장",
+   "title": "오픈AI, 영업비밀 절취 혐의로 애플에 맞소송",
+   "title_en": "OpenAI countersues Apple for stealing trade secrets",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/27/openai-countersues-apple-for-stealing-trade-secrets-ft-reports.html",
+   "published": "2026-11-28T08:07+09:00"
+  },
+  {
+   "category": "경제·시장",
+   "title": "사우디, 경제·안보 압박 속 '비전 2030' 지출 조정",
+   "title_en": "Saudi Arabia shifts Vision 2030 spending amid economic and security pressure",
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/11/28/saudi-arabia-vision-2030-spending.html",
    "published": "2026-11-28T15:00+09:00"
   },
   {
-   "category": "CNBC",
-   "title": "Africa’s richest man is taking his mega-refinery public in a blockbuster IPO",
-   "title_en": "",
+   "category": "경제·시장",
+   "title": "아프리카 최고 부자, 초대형 정유공장 상장 추진…블록버스터 IPO 예고",
+   "title_en": "Africa’s richest man is taking his mega-refinery public in a blockbuster IPO",
    "source": "CNBC",
    "url": "https://www.cnbc.com/2026/11/28/dangote-refinery-oil-ipo-nigeria-africa-energy.html",
    "published": "2026-11-28T15:00+09:00"
   },
   {
-   "category": "CNBC",
-   "title": "OpenAI countersues Apple for stealing trade secrets",
-   "title_en": "",
+   "category": "경제·시장",
+   "title": "나토 함대 지키는 방산업체 켐링, 행동주의 투자자가 분할 요구하는 이유",
+   "title_en": "Defense company Chemring protects NATO fleets. Here's why an activist investor wants it to break up",
    "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/27/openai-countersues-apple-for-stealing-trade-secrets-ft-reports.html",
-   "published": "2026-11-28T08:07+09:00"
+   "url": "https://www.cnbc.com/2026/11/28/defense-nato-activist-investor.html",
+   "published": "2026-11-28T15:15+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "아프가니스탄 학교 옆 폭발로 학생 10명 사망·100여 명 부상",
+   "title_en": "Ten students killed and over 100 injured in explosion in Afghanistan, official says",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-28T20:18+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "페루 군 헬기 추락…8명 사망",
+   "title_en": "Eight killed in Peruvian military helicopter crash",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-28T13:19+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "호주 빅토리아주 선거, 자유당 제스 윌슨 압승…노동당 12년 집권 끝나",
+   "title_en": "Victorian election 2026 live results: Jess Wilson vows to ‘bring back hope’ to Victoria after historic victory over Labor",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb",
+   "published": "2026-11-28T20:17+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "튀르키예 친야당 TV 채널 사주 \"당국이 방송사를 파괴했다\"",
+   "title_en": "Turkish officials 'destroyed' pro-opposition TV channel, owner tells BBC",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cq36gk151xkdo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-28T13:13+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "케냐 '굶어 죽기' 사이비 교주, 신도 123명 사망 관련 유죄",
+   "title_en": "Kenyan starvation cult leader found guilty over deaths of 123 followers",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/28-11-sv-kenya-cult-leader-paul-mackenzie?traffic_source=rss",
+   "published": "2026-11-28T18:59+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "영국 고용연금부 사이버 사고, 전 정부 CTO \"공격일 가능성 높아\"",
+   "title_en": "DWP cyber incident ‘probably an attack’, says former UK chief technology officer",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/technology/2026/nov/28/dwp-cyber-incident-probably-attack-former-uk-chief-technology-officer-david-knott",
+   "published": "2026-11-28T19:52+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "캐나다 국경 규정에 흩어지는 아이티 가족들",
+   "title_en": "Behind the Story: Canada’s Border Rules Are Splitting Up Haitian Families",
+   "source": "New York Times",
+   "url": "https://www.nytimes.com/2026/11/28/world/canada/us-border-haitian-families-third-safe-country.html",
+   "published": "2026-11-28T20:00+09:00"
+  },
+  {
+   "category": "국제",
+   "title": "영국, TV 수신료 미납·인도 자전거 주행도 정착 거부 사유 될 수 있어",
+   "title_en": "Unpaid TV licence or cycling on pavement could bar people from settling in UK",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/28/new-immigration-rules-uk-unpaid-tv-licence-cycling-pavement-adult-convictions",
+   "published": "2026-11-28T17:00+09:00"
   }
  ],
  "meta": [
   {
    "label": "출처",
-   "value": "BBC, New York Times, The Guardian, Al Jazeera, CNBC RSS (영어 원문)"
+   "value": "BBC, New York Times, The Guardian, Al Jazeera, CNBC RSS (제목은 우리말 번역)"
   },
   {
    "label": "수집 시각",
